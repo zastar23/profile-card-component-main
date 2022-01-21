@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+:root {
+    --dark_cyan: hsl(185, 75%, 39%);
+    --very_dark_desaturated_blue: hsl(229, 23%, 23%);
+    --dark_grayish_blue: hsl(227, 10%, 46%);
+    --dark_gray: hsl(0, 0%, 59%);
+}
+
+
+body {
+    background: url(images/bg-pattern-bottom.svg);
+    background-color: var(--dark_cyan);
+}
+
+.main {
+    background: url(images/bg-pattern-card.svg);
+    overflow: hidden;
+    width: 90%;
+    max-width: 25rem;
+    margin: 5rem auto;
+    border-radius: 10px;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    background: white;
+    position: relative;
+}
+
+.portrait {
+    width: 5rem;
+    margin-top: -2rem;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+.title {
+    font-weight: 700;
+    margin: 2rem 0;
+}
