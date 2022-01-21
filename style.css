@@ -29,12 +29,12 @@ body {
     background: url(images/bg-pattern-card.svg);
     overflow: hidden;
     width: 90%;
-    max-width: 25rem;
+    max-width: 20rem;
     margin: 5rem auto;
     border-radius: 10px;
 }
 
-.card__container {
+/* .card__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,4 +53,64 @@ body {
 .title {
     font-weight: 700;
     margin: 2rem 0;
+} */
+.img__div {
+    margin-top: 8rem;
+    text-align: center;
 }
+
+.portrait {
+    border-radius: 100%;
+    border: 5px solid #fff;
+    margin-top: -3rem;
+}
+
+.card__container {
+    background: #fff;
+}
+
+.title__flex {
+    display: flex;
+    justify-content: center;
+    gap: .7rem;
+    margin-top: .5rem;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.age {
+    opacity: .5;
+}
+
+.city {
+    text-align: center;
+    margin-top: .5rem;
+    opacity: .5;
+}
+
+hr {
+    opacity: .5;
+    margin: 1rem 0;
+}
+
+.container__flex {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1.5rem;
+    line-height: 1.5;
+}
+
+.bold {
+    font-weight: 700;
+    opacity: .8;
+}
+
+.thin {
+    font-weight: 400;
+    opacity: .5;
+}
+
